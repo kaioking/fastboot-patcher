@@ -3,7 +3,7 @@ name: Patch Image via URL
 on:
   workflow_dispatch:
     inputs:
-      image_url:
+      image_url:'https://drive.google.com/file/d/1XLyTNO-qPe87B6f63JAjDxyXDPBhl-2f/view?usp=sharing'
         description: 'Recovery Image URL'
         default: 'https://transfer.sh/<file-id>/<file>.img'
         required: true
